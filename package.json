@@ -16,7 +16,8 @@
     "phantomjs-prebuilt": "^2.1.7"
   },
   "scripts": {
-    "test": "sh run_tests.sh"
+    "test": "node nightwatch.js",
+    "test-multiple-browsers": "sh run_tests.sh"
   },
   "repository": {
     "type": "git",
