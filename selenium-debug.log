@@ -1,0 +1,46 @@
+12:11:55.216 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to ./node_modules/chromedriver/bin/chromedriver
+12:11:55.249 INFO - Java: Oracle Corporation 25.60-b23
+12:11:55.249 INFO - OS: Mac OS X 10.10.5 x86_64
+12:11:55.258 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+12:11:55.325 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+12:11:55.325 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+12:11:55.326 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:11:55.326 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+12:11:55.327 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+12:11:55.327 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+12:11:55.379 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+12:11:55.379 INFO - Selenium Server is up and running
+12:11:55.754 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+12:11:55.763 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 41420
+Only local connections are allowed.
+12:11:57.097 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+12:11:57.113 INFO - Executing: [get: http://todomvc.com/])
+12:11:59.703 INFO - Done: [get: http://todomvc.com/]
+12:11:59.710 INFO - Executing: [find elements: By.cssSelector: body])
+12:11:59.741 INFO - Done: [find elements: By.cssSelector: body]
+12:11:59.745 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: body]])
+12:11:59.759 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: body]]
+12:11:59.764 INFO - Executing: [get title])
+12:11:59.770 INFO - Done: [get title]
+12:11:59.774 INFO - Executing: [find element: By.cssSelector: a[href="examples/backbone"]])
+12:11:59.792 INFO - Done: [find element: By.cssSelector: a[href="examples/backbone"]]
+12:11:59.795 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: a[href="examples/backbone"]]])
+12:11:59.808 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: a[href="examples/backbone"]]]
+12:12:00.323 INFO - Executing: [get: http://google.com])
+12:12:01.925 INFO - Done: [get: http://google.com]
+12:12:01.928 INFO - Executing: [find elements: By.cssSelector: body])
+12:12:01.947 INFO - Done: [find elements: By.cssSelector: body]
+12:12:01.952 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+12:12:01.967 INFO - Done: [find element: By.cssSelector: input[type=text]]
+12:12:01.971 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]])
+12:12:02.054 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]]
+12:12:03.064 INFO - Executing: [find element: By.cssSelector: #main])
+12:12:03.081 INFO - Done: [find element: By.cssSelector: #main]
+12:12:03.085 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: #main]])
+12:12:03.311 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: #main]]
+12:12:07.324 INFO - Executing: [delete session: 094cf39b-4e12-499f-8cb0-0a588282b014])
+12:12:07.400 INFO - Done: [delete session: 094cf39b-4e12-499f-8cb0-0a588282b014]

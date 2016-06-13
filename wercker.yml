@@ -1,0 +1,49 @@
+box: node
+build:
+    steps:
+        - script:
+            name: setup
+            code: |
+              sudo apt-get update -y -qq
+        - install-packages:
+            packages: ruby ruby-dev bzr mercurial git wget
+        - script:
+            name: install firefox
+            code: |-
+              cd /usr/local
+              wget http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/45.0/linux-x86_64/en-US/firefox-45.0.tar.bz2
+              tar xvjf firefox-45.0.tar.bz2
+              sudo ln -s /usr/local/firefox/firefox /usr/bin/firefox
+        - script:
+            name: install java
+            code: |-
+              sudo apt-get --assume-yes install default-jre
+        - script:
+            name: test java
+            code: |-
+              type java || { echo "I expected java to be available after oracle-java7-installer installation. Aborting."; exit 1; }
+        - script:
+            name: start virtual display xvfb
+            code: |-
+              sudo apt-get --assume-yes install xvfb -y
+              sleep 15
+              export DISPLAY=:99.0
+              sudo start-stop-daemon --start --quiet --pidfile /tmp/xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -screen 0 1024x768x24 -ac +extension GLX +render -noreset
+              sleep 15
+              xdpyinfo -display :0 >/dev/null 2>&1 && echo "In use" || echo "Free"
+        
+        - npm-install
+    
+        - script:
+          name: set NODE_ENV == production
+          code: |-
+            export NODE_ENV=testing
+        - script:
+          name: install nightwatch global
+          code: |-
+            npm install -g nightwatch
+
+        - script:
+          name: run nightwatch with ci config
+          code: |-
+            nightwatch --config ./nightwatch-ci.json
