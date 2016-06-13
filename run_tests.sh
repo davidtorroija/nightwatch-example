@@ -1,1 +1,1 @@
-node nightwatch.js $1
+node nightwatch.js

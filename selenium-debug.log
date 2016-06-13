@@ -1,46 +1,44 @@
-12:11:55.216 INFO - Launching a standalone Selenium Server
+12:35:29.029 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/chromedriver/bin/chromedriver
-12:11:55.249 INFO - Java: Oracle Corporation 25.60-b23
-12:11:55.249 INFO - OS: Mac OS X 10.10.5 x86_64
-12:11:55.258 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-12:11:55.325 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+12:35:29.060 INFO - Java: Oracle Corporation 25.60-b23
+12:35:29.060 INFO - OS: Mac OS X 10.10.5 x86_64
+12:35:29.068 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+12:35:29.124 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-12:11:55.325 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+12:35:29.125 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-12:11:55.326 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-12:11:55.326 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-12:11:55.327 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-12:11:55.327 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-12:11:55.379 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-12:11:55.379 INFO - Selenium Server is up and running
-12:11:55.754 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-12:11:55.763 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 41420
-Only local connections are allowed.
-12:11:57.097 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-12:11:57.113 INFO - Executing: [get: http://todomvc.com/])
-12:11:59.703 INFO - Done: [get: http://todomvc.com/]
-12:11:59.710 INFO - Executing: [find elements: By.cssSelector: body])
-12:11:59.741 INFO - Done: [find elements: By.cssSelector: body]
-12:11:59.745 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: body]])
-12:11:59.759 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: body]]
-12:11:59.764 INFO - Executing: [get title])
-12:11:59.770 INFO - Done: [get title]
-12:11:59.774 INFO - Executing: [find element: By.cssSelector: a[href="examples/backbone"]])
-12:11:59.792 INFO - Done: [find element: By.cssSelector: a[href="examples/backbone"]]
-12:11:59.795 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: a[href="examples/backbone"]]])
-12:11:59.808 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: a[href="examples/backbone"]]]
-12:12:00.323 INFO - Executing: [get: http://google.com])
-12:12:01.925 INFO - Done: [get: http://google.com]
-12:12:01.928 INFO - Executing: [find elements: By.cssSelector: body])
-12:12:01.947 INFO - Done: [find elements: By.cssSelector: body]
-12:12:01.952 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-12:12:01.967 INFO - Done: [find element: By.cssSelector: input[type=text]]
-12:12:01.971 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]])
-12:12:02.054 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]]
-12:12:03.064 INFO - Executing: [find element: By.cssSelector: #main])
-12:12:03.081 INFO - Done: [find element: By.cssSelector: #main]
-12:12:03.085 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: #main]])
-12:12:03.311 INFO - Done: [get text: 4 [[ChromeDriver: chrome on MAC (8a019354b9afd2bd98c65e7fe3f4b491)] -> css selector: #main]]
-12:12:07.324 INFO - Executing: [delete session: 094cf39b-4e12-499f-8cb0-0a588282b014])
-12:12:07.400 INFO - Done: [delete session: 094cf39b-4e12-499f-8cb0-0a588282b014]
+12:35:29.125 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:35:29.125 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+12:35:29.127 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+12:35:29.127 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+12:35:29.180 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+12:35:29.180 INFO - Selenium Server is up and running
+12:35:29.585 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+12:35:29.594 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+12:35:31.887 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+12:35:31.900 INFO - Executing: [get: http://todomvc.com/])
+12:35:34.135 INFO - Done: [get: http://todomvc.com/]
+12:35:34.145 INFO - Executing: [find elements: By.cssSelector: body])
+12:35:34.202 INFO - Done: [find elements: By.cssSelector: body]
+12:35:34.207 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: body]])
+12:35:34.218 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: body]]
+12:35:34.223 INFO - Executing: [get title])
+12:35:34.232 INFO - Done: [get title]
+12:35:34.237 INFO - Executing: [find element: By.cssSelector: a[href="examples/backbone"]])
+12:35:34.246 INFO - Done: [find element: By.cssSelector: a[href="examples/backbone"]]
+12:35:34.249 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: a[href="examples/backbone"]]])
+12:35:34.260 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: a[href="examples/backbone"]]]
+12:35:34.777 INFO - Executing: [get: http://google.com])
+12:35:36.572 INFO - Done: [get: http://google.com]
+12:35:36.576 INFO - Executing: [find elements: By.cssSelector: body])
+12:35:36.697 INFO - Done: [find elements: By.cssSelector: body]
+12:35:36.702 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+12:35:36.709 INFO - Done: [find element: By.cssSelector: input[type=text]]
+12:35:36.716 INFO - Executing: [send keys: 3 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]])
+12:35:36.848 INFO - Done: [send keys: 3 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]]
+12:35:37.859 INFO - Executing: [find element: By.cssSelector: #main])
+12:35:37.868 INFO - Done: [find element: By.cssSelector: #main]
+12:35:37.871 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: #main]])
+12:35:39.335 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on MAC (ed8e55d7-8953-4140-b267-cd8eb6af1a09)] -> css selector: #main]]
+12:35:43.345 INFO - Executing: [delete session: fbf375ad-2b7c-46e4-951c-7f2916e82541])
+12:35:43.431 INFO - Done: [delete session: fbf375ad-2b7c-46e4-951c-7f2916e82541]
