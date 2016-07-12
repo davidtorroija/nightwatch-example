@@ -1,44 +1,15 @@
-15:06:05.572 INFO - Launching a standalone Selenium Server
+17:05:25.806 INFO - Launching a standalone Selenium Server
 Setting system property webdriver.chrome.driver to ./node_modules/chromedriver/bin/chromedriver
-15:06:05.611 INFO - Java: Oracle Corporation 25.60-b23
-15:06:05.611 INFO - OS: Mac OS X 10.10.5 x86_64
-15:06:05.620 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
-15:06:05.681 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+17:05:25.840 INFO - Java: Oracle Corporation 25.60-b23
+17:05:25.840 INFO - OS: Mac OS X 10.10.5 x86_64
+17:05:25.850 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+17:05:25.911 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-15:06:05.681 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+17:05:25.911 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-15:06:05.681 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-15:06:05.681 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-15:06:05.683 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-15:06:05.683 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-15:06:05.737 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-15:06:05.737 INFO - Selenium Server is up and running
-15:06:06.075 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
-15:06:06.086 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=firefox, javascriptEnabled=true, platform=ANY}]
-15:06:09.230 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
-15:06:09.242 INFO - Executing: [get: http://todomvc.com/])
-15:06:11.802 INFO - Done: [get: http://todomvc.com/]
-15:06:11.817 INFO - Executing: [find elements: By.cssSelector: body])
-15:06:11.879 INFO - Done: [find elements: By.cssSelector: body]
-15:06:11.884 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: body]])
-15:06:11.900 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: body]]
-15:06:11.907 INFO - Executing: [get title])
-15:06:11.923 INFO - Done: [get title]
-15:06:11.933 INFO - Executing: [find element: By.cssSelector: a[href="examples/backbone"]])
-15:06:11.943 INFO - Done: [find element: By.cssSelector: a[href="examples/backbone"]]
-15:06:11.950 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: a[href="examples/backbone"]]])
-15:06:11.960 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: a[href="examples/backbone"]]]
-15:06:12.477 INFO - Executing: [get: http://google.com])
-15:06:14.956 INFO - Done: [get: http://google.com]
-15:06:14.960 INFO - Executing: [find elements: By.cssSelector: body])
-15:06:15.075 INFO - Done: [find elements: By.cssSelector: body]
-15:06:15.081 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-15:06:15.089 INFO - Done: [find element: By.cssSelector: input[type=text]]
-15:06:15.092 INFO - Executing: [send keys: 3 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]])
-15:06:15.226 INFO - Done: [send keys: 3 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h, ]]
-15:06:16.233 INFO - Executing: [find element: By.cssSelector: #main])
-15:06:16.242 INFO - Done: [find element: By.cssSelector: #main]
-15:06:16.245 INFO - Executing: [get text: 4 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: #main]])
-15:06:17.919 INFO - Done: [get text: 4 [[FirefoxDriver: firefox on MAC (56b9bf8c-e6a3-d740-b363-56953f28ad86)] -> css selector: #main]]
-15:06:21.932 INFO - Executing: [delete session: 9a38875d-01ff-4519-a207-52cd646de827])
-15:06:22.048 INFO - Done: [delete session: 9a38875d-01ff-4519-a207-52cd646de827]
+17:05:25.911 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:05:25.911 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:05:25.913 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+17:05:25.914 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+17:05:25.966 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:05:25.967 INFO - Selenium Server is up and running

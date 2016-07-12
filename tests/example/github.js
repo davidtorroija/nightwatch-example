@@ -1,43 +1,29 @@
-describe('Github', function() {
+/* jshint expr: true */
+module.exports = {
+  'Demo Google search test using page objects' : function (client) {
+    var homePage = client.page.home();
+    homePage.navigate();
+    homePage.expect.element('@searchBar').to.be.enabled;
 
-  it('test todo mvc', function (client) {
-    client
-      .url('http://todomvc.com/')
-      .waitForElementVisible('body', 1000)
-      .assert.title('TodoMVC')
-      .assert.visible('a[href="examples/backbone"]');
+    homePage
+      .setValue('@searchBar', 'Nightwatch.js')
+      .submit();
 
-      client.pause(500);
-  });
+    var resultsPage = client.page.searchResults();
+    resultsPage.expect.element('@results').to.be.present.after(2000);
+    resultsPage.expect.element('@results').to.contain.text('Nightwatch.js');
+    resultsPage.expect.section('@menu').to.be.visible;
 
-  it('uses BDD to run the Google simple test', function(client) {
-      client
-        .url('http://google.com')
-        .expect.element('body').to.be.present.before(1000);
+    var menuSection = resultsPage.section.menu;
+    menuSection.expect.element('@web').to.be.visible;
+    menuSection.expect.element('@video').to.be.visible;
+    menuSection.expect.element('@images').to.be.visible;
+    menuSection.expect.element('@shopping').to.be.visible;
 
-      client.setValue('input[type=text]', ['nightwatch', client.Keys.ENTER])
-        .pause(1000)
-        .assert.containsText('#main', 'Night Watch');
+    menuSection.productIsSelected('@web', function(result) {
+      this.assert.ok(result, 'Web results are shown by default on search results page');
+    });
 
-      client.pause(4000);
-  });
-
-  after(function(client, done) {
-    if (client.sessionId) {
-      client.end(function() {
-        done();
-      });
-    } else {
-      done();
-    }
-  });
-
-  afterEach(function(client, done) {
-    done();
-  });
-
-  beforeEach(function(client, done) {
-    done();
-  });
-
-});
+    client.end();
+  }
+};

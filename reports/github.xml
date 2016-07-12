@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="1"
+            tests="1">
+
+  <testsuite name="github"
+    errors="2" failures="1" hostname="" id="" package="github" skipped="0"
+    tests="1" time="0.03000" timestamp="Mon, 11 Jul 2016 22:05:25 GMT">
+  
+    <testcase name="Demo Google search test using page objects" time="0.03000" assertions="0">
+    </testcase>
+      <system-err>
+        Error: The command &quot;navigate&quot; is already defined!
+    at addCommand (/Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/page-object/command-wrapper.js:158:19)
+    at /Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/page-object/command-wrapper.js:150:31
+    at Array.forEach (native)
+    at applyCommandsToTarget (/Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/page-object/command-wrapper.js:139:27)
+    at module.exports.commandName.addWrappedCommands (/Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/page-object/command-wrapper.js:180:5)
+    at Object.Page (/Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/page-object/page.js:23:18)
+    at Object.parent.(anonymous function) [as home] (/Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/core/api.js:463:16)
+    at Object.module.exports.Demo Google search test using page objects (/Users/davidtorroija/workspace/nightwatch-example/tests/example/github.js:4:32)
+    at Module.call (/Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/runner/module.js:63:34)
+    at /Users/davidtorroija/workspace/nightwatch-example/node_modules/nightwatch/lib/runner/testcase.js:97:29
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
