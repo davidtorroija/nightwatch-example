@@ -33,7 +33,7 @@ java.net.BindException: Selenium is already running on port 4444. Or some other 
 	at org.openqa.selenium.server.SeleniumServer.boot(SeleniumServer.java:321)
 	at org.openqa.selenium.server.SeleniumServer.main(SeleniumServer.java:240)
 	at org.openqa.grid.selenium.GridLauncher$1.launch(GridLauncher.java:58)
-	at org.openqa.grid.selenium.GridLauncher.main(GridLauncher.java:127)
-```
+	at org.openqa.grid.selenium.GridLauncher.main(GridLauncher.java:127)```
+
 
 You need to kill the java proccess and run the tests again
